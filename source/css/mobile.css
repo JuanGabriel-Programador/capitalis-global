@@ -111,7 +111,6 @@ main {
 }
 .benefits-container {
   gap: 50px;
-  width: 400px;
   padding: 0 18px;
   justify-content: center;
 }
