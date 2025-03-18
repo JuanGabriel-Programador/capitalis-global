@@ -197,8 +197,10 @@ main {
   font-weight: bolder;
   color: var(--headling-terciary);
 }
-.text-step > ul {
-  list-style-position: inside;
+.text-step > p:nth-child(1){
+  display: list-item;
+  list-style-type: disc; 
+  margin-left: 20px;
 }
 .line {
   width: 38%;
