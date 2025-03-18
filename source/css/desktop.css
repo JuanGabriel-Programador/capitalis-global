@@ -32,7 +32,9 @@
   .main-content {
     gap: 72px;
   }
-
+  .marcas{
+    width: 188px;
+  }
   /* About */
   .about,
   .functions {
