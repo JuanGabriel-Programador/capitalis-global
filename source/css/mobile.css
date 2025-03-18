@@ -168,7 +168,7 @@ main {
   padding: 0 24px 68px 24px;
 }
 .step {
-  gap: 50px;
+  gap: 20px;
   align-items: flex-end;
 }
 .step-2 {
