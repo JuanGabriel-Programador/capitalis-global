@@ -145,9 +145,8 @@ main {
   color: var(--text);
   line-height: 25px;
 }
-.button-benefits {
-  min-width: 432px;
-  min-height: 54px;
+.button-benefits {  
+  width: 100%;
   text-align: center;
 }
 
