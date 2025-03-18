@@ -191,8 +191,9 @@ main {
   gap: 50px;
 }*/
 .circle-info > img.circle-info-m {
-  min-width: 164px;
-  height: 247px;
+  min-width: 150px;
+  height: 230px;
+  max-width: 206px;
 }
 .circle-info > img.circle-info-d,
 .d {
@@ -222,8 +223,7 @@ main {
   height: 140px;
 }
 .circle-info > img.step-2 {
-  width: 166px;
-  height: 166px;
+  height: 150px;
 }
 /*.card-step > img,
 .step-2-container {
