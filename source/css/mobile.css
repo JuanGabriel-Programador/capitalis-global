@@ -175,6 +175,9 @@ main {
   height: 160px;
   align-items: flex-start;
 }
+.step-3{
+  align-items: flex-end;
+}
 /*.circle-info {
   gap: 50px;
 }*/
