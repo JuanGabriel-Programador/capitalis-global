@@ -175,9 +175,9 @@ main {
   height: 160px;
   align-items: flex-start;
 }
-.circle-info {
+/*.circle-info {
   gap: 50px;
-}
+}*/
 .circle-info > img.circle-info-m {
   min-width: 164px;
   height: 247px;
