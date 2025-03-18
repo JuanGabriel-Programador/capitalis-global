@@ -125,7 +125,7 @@ main {
   background-color: var(--background-primary);
 }
 .card-content {
-  gap: 56px;
+  gap: 30px;
 }
 .circle-benefits {
   width: 75px;
