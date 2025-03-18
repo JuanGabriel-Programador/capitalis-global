@@ -11,7 +11,15 @@
     grid-template-columns: 360px 662px 360px;
   }
   .bg {
-    padding: 99px 0;
+    width: 100%;
+    padding: 99px 0 99px 70px;
+  }
+  .bg-2 {
+    padding: 99px 70px 99px 0;
+  }
+  .bg-2 > img.desktop-ISO {
+    position: relative;
+    right: 500px;
   }
   .bg > img.mobile-ISO,
   .bg > img.tablet-ISO {
