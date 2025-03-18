@@ -169,14 +169,14 @@ main {
 }
 .step {
   gap: 20px;
-  align-items: flex-start;
+  align-items: flex-end;
 }
 .step-2 {
   height: 160px;
   align-items: flex-start;
 }
 .step-3{
-  align-items: flex-end;
+  align-items: flex-start;
 }
 /*.circle-info {
   gap: 50px;
