@@ -129,23 +129,31 @@ main {
   gap: 30px;
 }
 .circle-benefits {
-  width: 35%;
+  width: 56px;
   height: 56px;
   border-radius: 50%;
   background-color: var(--button-primary);
 }
-
-.circle-benefits-3{
-  height: 45%;
+.circle-benefits-1,
+.circle-benefits-3,
+.circle-benefits-4 {
+  width: 20%;
+}
+.circle-benefits-2 {
+  width: 23%;
 }
 .text-benefits {
   gap: 16px;
+  width: 75%;
+}
+.text-benefits3 {
+  width: 85%;
 }
 .text-benefits > p {
   color: var(--text);
   line-height: 25px;
 }
-.button-benefits {  
+.button-benefits {
   width: 100%;
   text-align: center;
 }
@@ -176,7 +184,7 @@ main {
   height: 160px;
   align-items: flex-start;
 }
-.step-3{
+.step-3 {
   align-items: flex-start;
 }
 /*.circle-info {
