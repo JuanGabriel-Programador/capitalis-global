@@ -67,7 +67,7 @@ main {
   justify-content: center;
 }
 .marcas {
-  width: 188px;
+  width: 150px;
   height: 56px;
   border-radius: 5px;
   background-color: var(--background-form);
