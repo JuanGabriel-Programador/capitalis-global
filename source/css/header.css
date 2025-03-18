@@ -1,0 +1,28 @@
+.logo {
+  padding: 10px 20px;
+}
+.m-m {
+  display: none;
+}
+nav > ul {
+  display: flex;
+  list-style: none;
+  column-gap: 50px;
+  flex-flow: row wrap;
+  align-items: center;
+}
+nav > ul > li,
+nav > ul > a {
+  font-size: 10px;
+  color: #eff2eb;
+  line-height: 16px;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-family: "HelveticaNeueLTStd-Roman", sans-serif;
+}
+nav > ul > li:nth-last-child(1) {
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: var(--button-primary);
+  border: solid 2px var(--button-primary);
+}
