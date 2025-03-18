@@ -142,7 +142,7 @@ main {
 }
 .text-benefits > p {
   color: var(--text);
-  line-height: 10px;
+  line-height: 25px;
 }
 .button-benefits {
   min-width: 432px;
