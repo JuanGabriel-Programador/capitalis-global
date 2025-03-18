@@ -30,16 +30,8 @@ main {
   flex-flow: column wrap;
 }
 .bg {
-    width: 100%;
-    padding: 99px 0 99px 70px;
-  }
-  .bg-2 {
-    padding: 99px 70px 99px 0;
-  }
-  .bg-2 > img.desktop-ISO {
-    position: relative;
-    right: 500px;
-  }
+  margin-top: -15px;
+}
 .bg > img.mobile-ISO {
   margin: -65px;
   width: 150px;
