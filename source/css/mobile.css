@@ -128,14 +128,18 @@ main {
   gap: 30px;
 }
 .circle-benefits {
-  width: 75px;
-  height: 56px;
+  width: 30%;
+  height: 40%;
   border-radius: 50%;
   background-color: var(--button-primary);
 }
 .circle-benefits-2,
 .circle-benefits-3 {
-  width: 85px;
+  width: 35%;
+  height: 30%;
+}
+.circle-benefits-3 {
+  height: 35%;
 }
 .text-benefits {
   gap: 16px;
