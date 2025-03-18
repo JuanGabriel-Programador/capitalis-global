@@ -197,9 +197,9 @@ main {
   font-weight: bolder;
   color: var(--headling-terciary);
 }
-.text-step > p > p{
+.lista > p {
   display: list-item;
-  list-style-type: disc; 
+  list-style-type: disc; /* Cambia el tipo de viñeta si quieres */
   margin-left: 20px;
 }
 .line {
