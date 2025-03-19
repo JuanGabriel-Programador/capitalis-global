@@ -4,10 +4,23 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-@font-face {
-  font-family: "HelveticaNeueLTStd-Roman", sans-serif;
-  src: url("../font/HelveticaNeueLTStd-Roman.otf");
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+/* @font-face {
+  font-family: "HelveticaNeue";
+  src: url("../source/font/helvetica-neue-5/HelveticaNeueLight.otf")
+    format("opentype");
+  font-weight: 300;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("../source/font/helvetica-neue-5/HelveticaNeueBold.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: normal;
+} */
+
 :root {
   /* BOTONES */
   --button-primary: #3fe396;
@@ -25,9 +38,11 @@
 }
 body {
   margin: 0 auto;
+  letter-spacing: 1px;
   overflow-x: hidden;
   background-color: var(--background-body);
-  font-family: "HelveticaNeueLTStd-Roman", sans-serif;
+  font-family: "HelveticaNeue", sans-serif;
+  font-weight: 300;
 }
 header {
   background-color: var(--background-secondary);
@@ -46,8 +61,16 @@ header {
   max-width: 54.12px;
   max-height: 41.5px;
 }
-a {
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   text-decoration: none;
+  font-family: "Helvetica Neue", sans-serif;
 }
 h1 {
   font-size: 72px;
