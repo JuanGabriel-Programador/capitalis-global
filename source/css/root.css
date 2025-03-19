@@ -73,7 +73,7 @@ p {
   font-family: "Helvetica Neue", sans-serif;
 }
 h1,h2,h4,h5{
-  line-height: lighter;
+  font-weight: lighter;
 }
 h1 {
   font-size: 72px;
