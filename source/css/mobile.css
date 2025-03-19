@@ -234,9 +234,6 @@ main {
   gap: 33px;
   align-items: flex-end;
 }
-.card-step > img.line1{
-  height: 360px;
-}
 .text-step {
   gap: 26px;
 }
@@ -251,6 +248,7 @@ main {
 .lista > p {
   margin-left: 10px;
   display: list-item;
+  font-size: 12px;
   list-style-type: disc;
 }
 .line {
