@@ -5,21 +5,6 @@
   scroll-behavior: smooth;
 }
 @import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
-/* @font-face {
-  font-family: "HelveticaNeue";
-  src: url("../source/font/helvetica-neue-5/HelveticaNeueLight.otf")
-    format("opentype");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "HelveticaNeue";
-  src: url("../source/font/helvetica-neue-5/HelveticaNeueBold.otf")
-    format("opentype");
-  font-weight: 700;
-  font-style: normal;
-} */
 
 :root {
   /* BOTONES */
