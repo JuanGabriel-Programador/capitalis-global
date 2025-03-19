@@ -234,6 +234,9 @@ main {
   gap: 33px;
   align-items: flex-end;
 }
+.card-step > img.line1{
+  height: 360px;
+}
 .text-step {
   gap: 26px;
 }
