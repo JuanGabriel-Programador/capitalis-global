@@ -248,7 +248,7 @@ main {
 .lista > p {
   margin-left: 10px;
   display: list-item;
-  font-size: 12px;
+  font-size: 13px;
   list-style-type: disc;
 }
 .line {
