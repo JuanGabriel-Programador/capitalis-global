@@ -58,9 +58,30 @@ main {
   padding: 15px 40px;
   border-radius: 10px;
   background-color: var(--button-primary);
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  width: 220px;
+  white-space: nowrap;
 }
+.button-primary:hover {
+  width: 244px;
+}
+.button-primary span {
+  opacity: 0;
+  margin-left: 5px;
+  transition: opacity 0.3s ease-in-out, margin-left 0.3s ease-in-out;
+}
+.button-primary:hover span {
+  opacity: 1;
+  margin-left: 10px;
+}
+
 .trust-container {
   gap: 32px;
+  color: var(--headling-terciary);
+}
+.trust-container > h5 {
+  letter-spacing: 0;
 }
 .logo-container {
   gap: 32px;
@@ -69,7 +90,6 @@ main {
 .marcas {
   height: 56px;
   min-width: 150px;
-  max-width: 188px;
   border-radius: 5px;
   background-color: var(--background-form);
 }
@@ -128,23 +148,12 @@ main {
 .card-content {
   gap: 30px;
 }
-.circle-benefits {
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  background-color: var(--button-primary);
-}
-.circle-benefits-1,
-.circle-benefits-3,
-.circle-benefits-4 {
-  width: 20%;
-}
-.circle-benefits-2 {
-  width: 23%;
-}
 .text-benefits {
   gap: 16px;
   width: 75%;
+}
+.text-benefits > h5 {
+  font-weight: 600;
 }
 .text-benefits3 {
   width: 85%;
@@ -154,8 +163,11 @@ main {
   line-height: 25px;
 }
 .button-benefits {
-  width: 100%;
+  width: 432px;
   text-align: center;
+}
+.button-benefits:hover {
+  width: 434px;
 }
 
 /* Functions */
@@ -170,6 +182,23 @@ main {
   gap: 12px;
   align-items: center;
   color: var(--background-footer);
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  width: 220px;
+  white-space: nowrap;
+}
+
+.btn-functions:hover {
+  width: 244px;
+}
+.btn-functions > img {
+  opacity: 0;
+  margin-left: 5px;
+  transition: opacity 0.3s ease-in-out, margin-left 0.3s ease-in-out;
+}
+.btn-functions:hover img {
+  opacity: 1;
+  margin-left: 10px;
 }
 
 /* Infography */
@@ -191,9 +220,8 @@ main {
   gap: 50px;
 }*/
 .circle-info > img.circle-info-m {
-  min-width: 150px;
-  height: 230px;
-  max-width: 206px;
+  min-width: 164px;
+  height: 247px;
 }
 .circle-info > img.circle-info-d,
 .d {
@@ -207,13 +235,17 @@ main {
   gap: 26px;
 }
 .text-step > h5 {
-  font-weight: bolder;
+  font-weight: bold;
   color: var(--headling-terciary);
 }
+.text-step > p,
 .lista > p {
-  display: list-item;
-  list-style-type: disc; /* Cambia el tipo de viñeta si quieres */
+  line-height: 24px;
+}
+.lista > p {
   margin-left: 20px;
+  display: list-item;
+  list-style-type: disc;
 }
 .line {
   width: 165px;
@@ -223,7 +255,8 @@ main {
   height: 140px;
 }
 .circle-info > img.step-2 {
-  height: 150px;
+  width: 166px;
+  height: 166px;
 }
 /*.card-step > img,
 .step-2-container {
@@ -249,6 +282,7 @@ form {
 }
 .fields-container > h1 {
   font-size: 48px;
+  font-weight: bold;
   line-height: 56px;
 }
 form,
@@ -257,6 +291,7 @@ form,
 .email-contacto {
   gap: 22px;
   width: 100%;
+  flex-direction: column;
 }
 .input > label {
   color: var(--text);
@@ -274,7 +309,7 @@ form,
   width: 98px;
 }
 .text-box {
-  width: 440px;
+  width: 100%;
 }
 .cel {
   width: 320px;
