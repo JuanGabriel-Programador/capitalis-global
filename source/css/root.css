@@ -1,14 +1,13 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
-
+/*=============== FONT ===============*/
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-lt-pro-55");
+/*=============== VARIABLES CSS ===============*/
 :root {
+  --header-height: 3.5rem;
+
+  /*========== Colors ==========*/
   /* BOTONES */
   --button-primary: #3fe396;
+
   /* FONDOS */
   --background-body: #e0e3dd;
   --background-primary: #eff2eb;
@@ -16,71 +15,100 @@
   --background-footer: #1a1c1a;
   --background-form: #cfd2cc;
   --logo: #d9d9d9;
+
   /* TEXTOS */
   --text: #999c97;
   --headling-terciary: #5a5d59;
   --headling-four: #35b276;
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Helvetica Neue LT Pro", sans-serif;
+  --normal-font-size: 0.938rem;
+
+  /*========== Font weight ==========*/
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
 }
+
+/*========== Responsive typography ==========*/
+@media screen and (min-width: 1024px) {
+  :root {
+    --normal-font-size: 1rem;
+  }
+}
+
+/*=============== BASE ===============*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  margin: 0 auto;
-  letter-spacing: 1px;
   overflow-x: hidden;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
   background-color: var(--background-body);
-  font-family: "HelveticaNeue", sans-serif;
-  font-weight: 300;
 }
-header {
-  background-color: var(--background-secondary);
+
+ul {
+  list-style: none;
+  /* Color highlighting when pressed on mobile devices */
+  /*-webkit-tap-highlight-color: transparent;*/
 }
+
+a {
+  text-decoration: none;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  z-index: 99;
-  position: relative;
-}
-.header-container {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-.logo > img {
-  max-width: 54.12px;
-  max-height: 41.5px;
+  max-width: 1440px;
 }
 a,
+h6,
+p {
+  text-decoration: none;
+  font-family: var(--body-font);
+}
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-p {
-  text-decoration: none;
+input {
   font-family: "Helvetica Neue", sans-serif;
 }
-h1,h2,h4,h5{
-  font-weight: lighter;
-}
 h1 {
-  font-size: 72px;
-  line-height: 80px;
+  font-weight: lighter;
+  font-size: clamp(48px, 5vw, 72px);
+  line-height: clamp(56px, 6vw, 80px);
 }
 h2 {
   font-size: 40px;
+  font-weight: lighter;
   line-height: 48px;
 }
 h3 {
-  font-size: 32px;
   line-height: 40px;
+  font-weight: lighter;
+  font-size: clamp(24px, 4vw, 32px);
 }
 h4 {
   font-size: 24px;
+  font-weight: lighter;
   line-height: 32px;
 }
 h5 {
   font-size: 20px;
   line-height: 24px;
+  font-weight: lighter;
 }
-
+p {
+  line-height: 24px;
+}
 .flex {
   display: flex;
   flex-wrap: wrap;
