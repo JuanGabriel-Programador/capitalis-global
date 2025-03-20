@@ -1,43 +1,16 @@
-header {
-  display: flex;
-  padding: 17.25px 21px;
-}
-.logo > img {
-  max-width: 54.12px;
-  max-height: 41.5px;
-}
-.m-desktop,
-.tablet-ISO {
-  display: none;
-}
-.menu--logo {
-  gap: 32px;
-}
-a.contacto {
-  padding: 10px 15px;
-  border-radius: 10px;
-  color: var(--button-primary);
-  background-color: transparent;
-  border: solid 2px var(--button-primary);
-}
-
 /* main content */
 main {
-  gap: 72px;
+  gap: 24px;
   display: flex;
-  padding: 0 20px;
+  padding: 0 20px 98px 20px;
   align-items: center;
   flex-flow: column wrap;
 }
-.bg {
-  margin-top: -15px;
-}
 .bg > img.mobile-ISO {
-  margin: -65px;
-  width: 150px;
-  transform: rotate(90deg);
+  width: 250px;
 }
-.bg > img.desktop-ISO {
+.bg > img.desktop-ISO,
+.bg > img.tablet-ISO {
   display: none;
 }
 .main-content {
@@ -49,23 +22,21 @@ main {
 .text-container {
   gap: 52px;
 }
-.text-container > h1 {
-  font-size: 48px;
-  line-height: 56px;
-  font-weight: 500;
-}
 .button-primary {
   color: black;
-  padding: 15px 40px;
+  padding: 15px 32px;
   border-radius: 10px;
+  font-weight: 300;
   background-color: var(--button-primary);
   transition: all 0.3s ease-in-out;
   overflow: hidden;
-  width: 220px;
+  max-width: 12.7rem;
+  width: 100%;
   white-space: nowrap;
 }
 .button-primary:hover {
-  width: 244px;
+  max-width: 244px;
+  width: 100%;
 }
 .button-primary span {
   opacity: 0;
@@ -127,7 +98,15 @@ main {
   gap: 32px;
   color: var(--background-primary);
 }
-
+.text-benefits > h5 {
+  font-weight: 600;
+}
+.overline-about > p,
+.text-benefits > h5,
+.text-benefits > p,
+.btn-functions {
+  font-family: "Helvetica Neue", sans-serif;
+}
 /* Benefits */
 .benefits {
   padding: 64px 0;
@@ -156,8 +135,8 @@ main {
   width: 75%;
 }
 /*.text-benefits > h5 {
-  font-weight: 600;
-}*/
+    font-weight: 600;
+  }*/
 .text-benefits3 {
   width: 85%;
 }
@@ -166,7 +145,7 @@ main {
   line-height: 25px;
 }
 .button-benefits {
-  width: 432px;
+  max-width: 100%;
   text-align: center;
 }
 .button-benefits:hover {
@@ -220,8 +199,8 @@ main {
   align-items: flex-start;
 }
 /*.circle-info {
-  gap: 50px;
-}*/
+    gap: 50px;
+  }*/
 .circle-info > img.circle-info-m {
   min-width: 164px;
   height: 247px;
@@ -236,10 +215,12 @@ main {
 }
 .text-step {
   gap: 26px;
+  font-family: "Helvetica Neue LT Pro", sans-serif;
 }
 .text-step > h5 {
-  font-weight: bold;
+  font-weight: 500;
   color: var(--headling-terciary);
+  font-family: "Helvetica Neue LT Pro", sans-serif;
 }
 .text-step > p,
 .lista > p {
@@ -248,7 +229,7 @@ main {
 .lista > p {
   margin-left: 10px;
   display: list-item;
-  font-size: 13px;
+  font-size: 12px;
   list-style-type: disc;
 }
 .line {
@@ -263,21 +244,32 @@ main {
   height: 166px;
 }
 /*.card-step > img,
-.step-2-container {
-  height: 230px;
-}*/
+  .step-2-container {
+    height: 230px;
+  }*/
 
 /* contacto */
 /* .contacto {
-  padding: 72px 20px;
-} */
+    padding: 72px 20px;
+  } */
 .fields-container {
+  width: 100%;
   border-radius: 5px;
   padding: 72px 20px;
   background-color: var(--background-form);
 }
 .left-column {
   display: none;
+}
+.info-contacto {
+  color: var(--text);
+}
+.info-contacto > p:nth-child(1) {
+  font-weight: 600;
+  font-family: "Helvetica Neue", sans-serif;
+}
+.container-contacto {
+  width: 100%;
 }
 .fields-container,
 form {
@@ -300,13 +292,38 @@ form,
 .input > label {
   color: var(--text);
 }
-.input > input {
+input,
+textarea {
+  box-sizing: border-box;
+}
+.input > input,
+.input > textarea {
   background-color: transparent;
   border: none;
+  padding: 10px;
   border-bottom: 1px solid var(--background-footer);
 }
+.input > input:focus,
+.input > textarea:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid var(--background-footer);
+}
+.input > input {
+  height: 20px;
+}
+.input,
+.input > label {
+  gap: 10px;
+}
+.input > input:active {
+  border-bottom: 1px solid var(--text);
+}
 .num {
-  column-gap: 22px;
+  column-gap: 27px;
+}
+.tel {
+  gap: 18px;
 }
 .num > input:nth-child(1),
 .cod {
@@ -318,7 +335,7 @@ form,
 .cel {
   width: 320px;
 }
-.msj {
+#msj {
   height: 85px;
   justify-content: space-between;
 }
@@ -328,6 +345,7 @@ input.button {
   padding: 15px 0;
   font-size: 16px;
   margin-top: 55px;
+  font-weight: 300;
   line-height: 24px;
   border-radius: 10px;
   color: var(--background-primary);
