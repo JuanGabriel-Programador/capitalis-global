@@ -151,7 +151,7 @@ main {
   text-align: center;
 }
 .button-benefits:hover {
-  width: 434px;
+  max-width: 100%;
 }
 
 /* Functions */
