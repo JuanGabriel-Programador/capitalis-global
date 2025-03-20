@@ -2,7 +2,6 @@
   main {
     top: 101px;
     display: grid;
-    position: relative;
     align-items: center;
     justify-items: center;
     justify-content: center;
