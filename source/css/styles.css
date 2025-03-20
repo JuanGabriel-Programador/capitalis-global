@@ -96,6 +96,7 @@ a.contacto-mobile {
 
 .nav__link {
   display: flex;
+  font-weight: 300;
   font-size: 0.625rem;
   align-items: center;
   padding: 1.25rem 1.5rem;
