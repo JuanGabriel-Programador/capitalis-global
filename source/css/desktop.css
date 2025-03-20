@@ -1,10 +1,8 @@
-@media screen and (min-width: 750px) {
-  .container {
-    margin: 0 auto;
-    max-width: 1440px;
-  }
+@media screen and (min-width: 1118px) {
   main {
+    top: 101px;
     display: grid;
+    position: relative;
     align-items: center;
     justify-items: center;
     justify-content: center;
@@ -19,7 +17,7 @@
   }
   .bg-2 > img.desktop-ISO {
     position: relative;
-    right: 480px;
+    right: 500px;
   }
   .bg > img.mobile-ISO,
   .bg > img.tablet-ISO {
@@ -31,8 +29,9 @@
   }
   .main-content {
     gap: 72px;
+    padding-top: 10px;
   }
-  .marcas{
+  .marcas {
     width: 188px;
   }
   /* About */
@@ -51,7 +50,7 @@
     height: 50px;
   }
   .overline-about > p {
-    width: 200px;
+    width: 247px;
   }
 
   /* benefits */
@@ -69,11 +68,12 @@
     height: 100%;
     flex-direction: column;
   }
-  .circle-benefits {
-    width: 56px;
-    height: 56px;
+  .text-benefits {
+    width: 100%;
   }
-
+  .button-benefits {
+    max-width: 10.5rem;
+  }
   /* Functions */
   .functions-container {
     padding: 32px 40px;
@@ -95,8 +95,11 @@
     gap: 18px;
     flex-direction: column;
   }
+  .lista > p {
+    font-size: 16px;
+  }
   .circle-info > img.circle-info-d {
-    max-width: 325px;
+    max-width: 315px;
     max-height: 216px;
   }
   .circle-info > img.circle-info-d,
@@ -116,8 +119,25 @@
     padding-top: 60px;
   }
   .line {
+    width: 216px;
     align-items: flex-start;
   }
+  #line-2 {
+    height: 250px;
+  }
+  #line-3 {
+    height: 280px;
+  }
+  .text-step {
+    padding-top: 20px;
+  }
+  .texto-cardStep {
+    gap: 10px;
+  }
+  /* .card-step2,
+  .card-step3 {
+    align-items: center;
+  } */
   img.d {
     width: 195px;
     height: 216px;
@@ -165,6 +185,12 @@
     row-gap: 22px;
     column-gap: 24px;
   }
+
+  .nombre-apellido,
+  .empresa-cuit,
+  .email-contacto {
+    flex-direction: row;
+  }
   .text-box {
     width: 295px;
   }
@@ -176,10 +202,14 @@
     width: 80px;
   }
   .tel {
+    gap: 10px;
     width: 189px;
   }
   .msj,
   .text-box {
     width: 100%;
+  }
+  .msj {
+    height: auto;
   }
 }
