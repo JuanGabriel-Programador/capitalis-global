@@ -115,6 +115,12 @@
     row-gap: 22px;
     column-gap: 24px;
   }
+  .input, .input > label{
+    width: 48%;
+  }
+  .tel{
+    max-width: 170px;
+  }
   .nombre-apellido, .empresa-cuit, .email-contacto{
     flex-direction: row;
   }
