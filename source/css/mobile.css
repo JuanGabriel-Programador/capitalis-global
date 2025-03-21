@@ -37,7 +37,7 @@ main {
   white-space: nowrap;
 }
 .button-primary:hover {
-  max-width: 227px;
+  max-width: 230px;
   width: 100%;
 }
 .button-primary span {
