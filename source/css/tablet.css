@@ -6,6 +6,9 @@
     grid-template-columns: 150px 450px 150px;
 /*140px 452px 140px*/
   }
+  .main-content{
+    align-content: center;
+  }
   .text-container {
     flex-wrap: nowrap;
   }
@@ -71,7 +74,13 @@
   .d {
     display: none;
   }
-  .card-step,
+  .card-feature{
+    max-width: 350px;
+  }
+  .card-step{
+    max-width: 216px;
+    align-items: center;
+  }
   .card-step > img {
     align-items: flex-end;
   }
