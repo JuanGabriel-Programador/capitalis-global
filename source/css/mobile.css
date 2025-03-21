@@ -102,6 +102,7 @@ main {
 }
 .text-benefits > h5 {
   font-weight: 500;
+  font-family: 'Helvetica Neue LT Pro', sans-serif;
 }
 .overline-about > p,
 .text-benefits > p,
