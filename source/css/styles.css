@@ -148,7 +148,6 @@ footer a {
 }
 .footer-container {
   gap: 45px;
-    transform: translateY(-20px);
   padding: 0 30px;
 }
 .info-containerF {
