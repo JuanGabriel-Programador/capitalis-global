@@ -122,9 +122,15 @@
     width: 615px;
   }
   footer{
+    justify-content: flex-start;
     padding: 4.625rem 1.3125rem 3.375rem 1.3125rem;
   }
   .footer-container{
     padding: 0;
+    width: 100%;
+  }
+  .info-containerF{
+    width: 100%;
+    justify-content: space-between;
   }
 }
