@@ -283,7 +283,7 @@ form {
 }
 .fields-container > h1 {
   font-size: 48px;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 56px;
 }
 form,
