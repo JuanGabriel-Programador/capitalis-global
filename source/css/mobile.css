@@ -101,7 +101,7 @@ main {
   color: var(--background-primary);
 }
 .text-benefits > h5 {
-  font-weight: 600;
+  font-weight: 400;
 }
 .overline-about > p,
 .text-benefits > p,
