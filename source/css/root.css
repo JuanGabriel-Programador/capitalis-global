@@ -13,7 +13,7 @@
   --background-primary: #eff2eb;
   --background-secondary: #3c3e3c;
   --background-footer: #1a1c1a;
-  --background-form: #cfd2cc;
+  --background-form: #cfd2cc;f
   --logo: #d9d9d9;
 
   /* TEXTOS */
@@ -95,7 +95,7 @@ h2 {
 }
 h3 {
   line-height: 40px;
-  font-weight: lighter;
+  font-weight: 400;
   font-size: clamp(24px, 4vw, 32px);
 }
 h4 {
