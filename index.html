@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,10 +11,11 @@
     />
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="source/css/styles.css" />
-    <link rel="stylesheet" href="source/css/mobile.css" />
-    <link rel="stylesheet" href="source/css/root.css" />
-    <link rel="stylesheet" href="source/css/desktop.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/mobile.css" />
+    <link rel="stylesheet" href="assets/css/root.css" />
+    <link rel="stylesheet" href="assets/css/desktop.css" />
+    <!-- <link rel="stylesheet" href="assets/css/tablet.css" /> -->
 
     <title>Capitalis Global</title>
   </head>
@@ -23,26 +24,30 @@
     <header class="header">
       <nav class="nav container">
         <div class="nav__data">
-          
           <div class="menu__logo">
             <div class="nav__toggle" id="nav-toggle">
               <i class="ri-menu-line nav__burger"></i>
               <i class="ri-close-line nav__close"></i>
             </div>
-            <a href="index.html" class="nav__logo"
-              ><img src="source/img/Logo.png" alt=""
+            <a href="#" class="nav__logo"
+              ><img src="assets/img/Logo.png" alt=""
             /></a>
           </div>
-          <a href="#contacto" class="nav__logo contacto-desktop">Contactanos</a>
+          <a href="" class="nav__logo contacto-desktop">Contactanos</a>
         </div>
         <!--=============== NAV MENU ===============-->
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
-            <li><a href="#quienes-somos" class="nav__link">QUIENES SOMOS</a></li>
-
-            <li><a href="#como-funciona" class="nav__link">COMO FUNCIONA</a></li>
             <li>
-              <a href="#contacto" class="nav__link contacto-mobile">CONTACTANOS</a>
+              <a href="#quienes-somos" class="nav__link">QUIENES SOMOS</a>
+            </li>
+            <li>
+              <a href="#como-funciona" class="nav__link">COMO FUNCIONA</a>
+            </li>
+            <li>
+              <a href="#contacto" class="nav__link contacto-mobile"
+                >CONTACTANOS</a
+              >
             </li>
           </ul>
         </div>
@@ -50,12 +55,12 @@
     </header>
 
     <section class="container">
-    <!--=============== MAIN ===============-->
+      <!-- =============== MAIN =============== -->
       <main>
         <div class="bg bg-2">
-          <img src="source/img/ISO-L.png" class="mobile-ISO" alt="" />
-          <img src="source/img/ISO (1).png" alt="" class="tablet-ISO" />
-          <img src="source/img/ISODD.png" class="desktop-ISO" alt="" />
+          <img src="assets/img/ISO-L.png" class="mobile-ISO" alt="" />
+          <img src="assets/img/ISO (1).png" alt="" class="tablet-ISO" />
+          <img src="assets/img/ISODD.png" class="desktop-ISO" alt="" />
         </div>
         <div class="main-content flex-column-center">
           <section class="main-container flex-column-center">
@@ -77,15 +82,15 @@
           </section>
         </div>
         <div class="bg">
-          <img src="source/img/ISO-DI.png" class="desktop-ISO" alt="" />
-          <img src="source/img/ISO.png" class="tablet-ISO" alt="" />
+          <img src="assets/img/ISO-DI.png" class="desktop-ISO" alt="" />
+          <img src="assets/img/ISO.png" class="tablet-ISO" alt="" />
         </div>
       </main>
-      
-    <!--=============== ABOUT ===============-->
-      <section class="about flex">
+
+      <!-- =============== ABOUT =============== -->
+      <section class="about flex" id="quienes-somos">
         <div class="about-container flex">
-          <div class="overline overline-about flex-center" id="quienes-somos">
+          <div class="overline overline-about flex-center">
             <div class="circle circle-about"></div>
             <p>¿Quiénes somos?</p>
           </div>
@@ -101,15 +106,15 @@
           </div>
         </div>
       </section>
-      
-    <!--=============== BENEFITS ===============-->
+
+      <!-- =============== BENEFITS =============== -->
       <section class="benefits flex">
         <div class="benefits-container flex">
           <div class="card-container flex">
             <div class="card-feature flex-column">
               <div class="card-content flex-f">
                 <div class="circle-benefits circle-benefits-1">
-                  <img src="source/img/logo-body.png" alt="" />
+                  <img src="assets/img/logo-body.png" alt="" />
                 </div>
                 <div class="text-benefits flex-column">
                   <h5>Cobros <br />simplificados</h5>
@@ -120,10 +125,10 @@
             <div class="card-feature flex-column">
               <div class="card-content flex-f">
                 <div class="circle-benefits circle-benefits-2">
-                  <img src="source/img/logo-body2.png" alt="" />
+                  <img src="assets/img/logo-body2.png" alt="" />
                 </div>
                 <div class="text-benefits flex-column text-benefits3">
-                  <h5>Múltiples métodos de <br />recaudación</h5>
+                  <h5>Múltiples métodos de <br />recadudación</h5>
                   <p>
                     Acepta transferencias, cheques, postnets y efectivo con
                     total seguridad.
@@ -134,7 +139,7 @@
             <div class="card-feature flex-column">
               <div class="card-content flex-f">
                 <div class="circle-benefits circle-benefits-3">
-                  <img src="source/img/logo-body3.png" alt="" />
+                  <img src="assets/img/logo-body3.png" alt="" />
                 </div>
                 <div class="text-benefits flex-column">
                   <h5>Gestión eficiente <br />de pagos</h5>
@@ -147,7 +152,7 @@
             <div class="card-feature flex-column">
               <div class="card-content flex-f">
                 <div class="circle-benefits circle-benefits-4">
-                  <img src="source/img/logo-body4.png" alt="" />
+                  <img src="assets/img/logo-body4.png" alt="" />
                 </div>
                 <div class="text-benefits flex-column">
                   <h5>Seguridad y respaldo bancario</h5>
@@ -156,16 +161,16 @@
               </div>
             </div>
           </div>
-          <a href="#contacto" class="button-primary button button-benefits"
+          <a href="" class="button-primary button button-benefits"
             >Contactanos<span>→</span></a
           >
         </div>
       </section>
 
-    <!--=============== FUNCTIONS ===============-->
-      <section class="functions flex">
+      <!-- =============== FUNCTIONS =============== -->
+      <section class="functions flex" id="como-funciona">
         <div class="functions-container flex">
-          <div class="overline overline-about flex-center" id="como-funciona">
+          <div class="overline overline-about flex-center">
             <div class="circle circle-about"></div>
             <p>¿Como funciona?</p>
           </div>
@@ -175,23 +180,23 @@
               adaptado a las necesidades de tu empresa.
             </h2>
             <a href="" class="btn-functions flex"
-              >Empezar ahora <img src="source/img/btn.png" alt=""
-            /></a>
+              >Empezar ahora <span>→</span></a
+            >
           </div>
         </div>
       </section>
 
-    <!--=============== INFOGRAPHY ===============-->
+      <!-- =============== INFOGRAPHY =============== -->
       <section class="infography">
         <div class="container-infography">
           <div class="step step-1 flex-f">
             <div class="circle-info">
-              <img src="source/img/step-1-m.png" alt="" class="circle-info-m" />
-              <img src="source/img/step-1.png" alt="" class="circle-info-d" />
+              <img src="assets/img/step-1-m.png" alt="" class="circle-info-m" />
+              <img src="assets/img/step-1.png" alt="" class="circle-info-d" />
             </div>
             <div class="step-container">
               <div class="card-step flex-f">
-                <img src="source/img/line.png" class="img-line line1" />
+                <img src="assets/img/line.png" class="img-line line1" />
                 <div class="text-step text-stepo flex-column">
                   <h5>01</h5>
                   <div class="texto-cardStep flex-column">
@@ -211,8 +216,8 @@
             </div>
           </div>
           <div class="line flex-center">
-            <img src="source/img/line.png" alt="" class="m" /><img
-              src="source/img/Line-h.png"
+            <img src="assets/img/line.png" alt="" class="m" /><img
+              src="assets/img/Line-h.png"
               alt=""
               class="d"
             />
@@ -220,19 +225,19 @@
           <div class="step step-2 flex-center">
             <div class="circle-info">
               <img
-                src="source/img/step-2.png"
+                src="assets/img/step-2.png"
                 alt=""
                 class="circle-info-m step-2"
               />
               <img
-                src="source/img/step-2.png"
+                src="assets/img/step-2.png"
                 alt=""
                 class="circle-info-d step-2"
               />
             </div>
             <div class="step-container step-2-container">
               <div class="card-step card-step2 flex-f">
-                <img src="source/img/line.png" alt="" id="line-2" />
+                <img src="assets/img/line.png" alt="" id="line-2" />
                 <div class="text-step text-step2 .text-step2b flex-column">
                   <h5>02</h5>
                   <p>
@@ -244,20 +249,20 @@
             </div>
           </div>
           <div class="line flex-center">
-            <img src="source/img/line.png" alt="" class="m" /><img
-              src="source/img/Line-h.png"
+            <img src="assets/img/line.png" alt="" class="m" /><img
+              src="assets/img/Line-h.png"
               alt=""
               class="d"
             />
           </div>
           <div class="step step-3 flex-f">
             <div class="circle-info">
-              <img src="source/img/step-3v.png" alt="" class="circle-info-m" />
-              <img src="source/img/step-3.png" alt="" class="circle-info-d" />
+              <img src="assets/img/step-3v.png" alt="" class="circle-info-m" />
+              <img src="assets/img/step-3.png" alt="" class="circle-info-d" />
             </div>
             <div class="step-container step-2-container">
               <div class="card-step card-step3 flex-f">
-                <img src="source/img/line.png" id="line-3" alt="" />
+                <img src="assets/img/line.png" id="line-3" alt="" />
                 <div class="text-step text-step2 flex-column">
                   <h5>03</h5>
                   <p>
@@ -270,21 +275,25 @@
           </div>
         </div>
       </section>
-      
-    <!--=============== CONTACTO ===============-->
+
+      <!-- =============== CONTACTO =============== -->
       <section class="contacto flex-f" id="contacto">
         <div class="container-contacto flex-f">
           <div class="left-column">
             <div class="info-container flex-column">
               <div class="contact-form flex-f">
-                <div class="circle-form"></div>
+                <div class="circle-form">
+                  <img src="assets/img/icon-wpp.png" alt="" />
+                </div>
                 <div class="info-contacto flex-column">
                   <p>Nuestro Whatsapp</p>
                   <p>+54 11 1234 5678</p>
                 </div>
               </div>
               <div class="contact-form flex-f">
-                <div class="circle-form"></div>
+                <div class="circle-form">
+                  <img src="assets/img/icon-email.png" alt="" />
+                </div>
                 <div class="info-contacto flex-column">
                   <p>Nuestro E-mail</p>
                   <p>hello@capitalisglobal.com</p>
@@ -292,53 +301,89 @@
               </div>
             </div>
             <div class="social-media flex-f">
-              <div class="circle-form"></div>
-              <div class="circle-form"></div>
-              <div class="circle-form"></div>
+              <div class="circle-contact"></div>
+              <div class="circle-contact"></div>
+              <div class="circle-contact"></div>
             </div>
           </div>
-          <div class="fields-container flex-f" id="contacto">
+          <div class="fields-container flex-f">
             <h1>Contactanos</h1>
             <form action="" class="flex-f">
               <div class="nombre-apellido flex">
                 <div class="input flex-column">
-                  <label for="">Nombre*</label>
-                  <input type="text" class="text-box" required />
+                  <input
+                    type="text"
+                    class="text-box"
+                    placeholder="Nombre*"
+                    required
+                  />
                 </div>
                 <div class="input flex-column">
-                  <label for="">Apellido*</label>
-                  <input type="text" class="text-box" required />
+                  <input
+                    type="text"
+                    placeholder="Apellido*"
+                    class="text-box"
+                    required
+                  />
                 </div>
               </div>
               <div class="empresa-cuit flex">
                 <div class="input flex-column">
-                  <label for="">Nombre de la empresa*</label>
-                  <input type="text" class="text-box name" required />
+                  <input
+                    type="text"
+                    placeholder="Nombre de la empresa*"
+                    class="text-box name"
+                    required
+                  />
                 </div>
                 <div class="input flex-column">
-                  <label for="">CUIL/CUIT*</label>
-                  <input type="text" class="text-box" required />
+                  <input
+                    type="text"
+                    placeholder="CUIL/CUIT*"
+                    class="text-box"
+                    required
+                  />
                 </div>
               </div>
               <div class="email-contacto flex">
                 <div class="input flex-column">
-                  <label for="">E-Mail*</label>
-                  <input type="text" name="" class="text-box" id="" required />
+                  <input
+                    type="text"
+                    placeholder="E-mail*"
+                    name=""
+                    class="text-box"
+                    id=""
+                    required
+                  />
                 </div>
                 <div class="num flex-f">
                   <div class="flex-column num input cod">
-                    <label for="">(Cod. Área)*</label>
-                    <input type="number" class="cod" required />
+                    <input
+                      type="number"
+                      placeholder="(Cod. Área)*"
+                      class="cod"
+                      required
+                    />
                   </div>
                   <div class="flex-column num tel input">
-                    <label for="" class="tel">Teléfono*</label>
-                    <input type="number" name="" id="" class="tel" required />
+                    <input
+                      type="number"
+                      placeholder="Teléfono*"
+                      name=""
+                      id=""
+                      class="tel"
+                      required
+                    />
                   </div>
                 </div>
               </div>
               <div class="input flex-column msj">
-                <label for="">Quiero saber más acerca...*</label>
-                <textarea name="" id="msj" required></textarea>
+                <textarea
+                  name="msj"
+                  placeholder="Quiero saber más acerca...*"
+                  id="msj"
+                  required
+                ></textarea>
               </div>
               <input type="button" class="button" value="Enviar" />
             </form>
@@ -347,36 +392,36 @@
       </section>
     </section>
 
-    <!--=============== FOOTER ===============-->
+    <!-- =============== FOOTER =============== -->
     <footer class="flex">
       <section class="footer-container container flex">
         <div class="info-containerF flex">
           <div class="logo-footer">
-            <img src="source/img/logo-footer.png" alt="" />
+            <img src="assets/img/logo-footer.png" alt="" />
           </div>
           <div class="menu-contactF flex">
             <div class="contact-footer flex">
               <div class="footer-p flex-column">
                 <p>CONTACTO</p>
-                <p>+54 11 1234 5678</p>
-                <p>hello@capitalisglobal.com</p>
+                <a href="">+54 11 1234 5678</a>
+                <a href="">hello@capitalisglobal.com</a>
               </div>
               <div class="social-mediaF flex">
-                <div class="circle-form"></div>
-                <div class="circle-form"></div>
-                <div class="circle-form"></div>
+                <div class="circle-contact"></div>
+                <div class="circle-contact"></div>
+                <div class="circle-contact"></div>
               </div>
             </div>
             <div class="menu-footer flex">
               <ul class="menuF-1 flex">
-                <li>Home</li>
-                <li>Quienes somos</li>
-                <li>Como funciona</li>
-                <li>Contactanos</li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Quienes somos</a></li>
+                <li><a href="">Como funciona</a></li>
+                <li><a href="">Contactanos</a></li>
               </ul>
               <ul class="menuF-1 flex">
-                <li>Terms & Conditions</li>
-                <li>Privacy Policy</li>
+                <li><a href="">Terms & Conditions</a></li>
+                <li><a href="">Privacy Policy</a></li>
               </ul>
             </div>
           </div>
@@ -385,6 +430,6 @@
       <p class="firma">©2025. All rights reserved.</p>
     </footer>
     <!--=============== MAIN JS ===============-->
-    <script src="source/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
