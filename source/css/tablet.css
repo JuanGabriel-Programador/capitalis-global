@@ -114,6 +114,7 @@
   .email-contacto {
     row-gap: 22px;
     column-gap: 24px;
+    flex-direction: row;
   }
   .msj {
     width: 614px;
