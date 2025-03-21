@@ -2,8 +2,8 @@
   main {
     gap: 0;
     display: grid;
-    padding: 120px 0;
-    grid-template-columns: repeat(3,1fr);
+    padding: 120px 0;        
+    grid-template-columns: 150px 450px 150px;
 /*140px 452px 140px*/
   }
   .text-container {
@@ -26,9 +26,6 @@
   }
   .bg > img.tablet-ISO {
     display: block;
-  }
-  .bg > img.ISO2{
-    transform: translateX(80px);
   }
   .about-container,
   .functions-container {
