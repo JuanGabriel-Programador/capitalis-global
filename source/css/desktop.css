@@ -36,8 +36,9 @@
   /* About */
   .about,
   .functions {
-    margin: 0 61px;
     padding: 77px;
+    margin: 0 61px;
+    padding-top: 60px;
     border-radius: 30px;
   }
   .about-container,
