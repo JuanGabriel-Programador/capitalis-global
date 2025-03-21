@@ -121,4 +121,8 @@
   input.button {
     width: 615px;
   }
+  footer{
+    
+    padding: 0.625rem 1.3125rem;
+  }
 }
