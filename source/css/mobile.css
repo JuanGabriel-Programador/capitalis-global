@@ -324,9 +324,6 @@ textarea {
 .input > input:active {
   border-bottom: 1px solid var(--text);
 }
-.num {
-  column-gap: 27px;
-}
 .cod {
   width: 98px;
 }
