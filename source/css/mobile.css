@@ -77,6 +77,9 @@ main {
   flex-flow: column wrap;
   background-color: var(--background-secondary);
 }
+.about {
+  scroll-margin-top: 150px;
+}
 .about-container,
 .functions-container {
   gap: 200px;
@@ -102,7 +105,7 @@ main {
 }
 .text-benefits > h5 {
   font-weight: 400;
-  font-family: 'Helvetica Neue LT Pro', sans-serif;
+  font-family: "Helvetica Neue LT Pro", sans-serif;
 }
 .overline-about > p,
 .text-benefits > p,
@@ -157,6 +160,7 @@ main {
 /* Functions */
 .functions {
   padding: 71px 0;
+  scroll-margin-top: 100px;
   background-color: transparent;
 }
 .text-functions {
@@ -164,25 +168,24 @@ main {
 }
 .btn-functions {
   gap: 12px;
+  width: 220px;
+  overflow: hidden;
+  white-space: nowrap;
   align-items: center;
   color: var(--background-footer);
   transition: all 0.3s ease-in-out;
-  overflow: hidden;
-  width: 220px;
-  white-space: nowrap;
 }
 
-.btn-functions:hover {
-  width: 244px;
+.btn-functions > span {
+  border-radius: 50%;
+  font-size: 0.905rem;
+  padding: 3.05px 6px 5.07px;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid var(--button-primary);
 }
-.btn-functions > img {
-  opacity: 0;
-  margin-left: 5px;
-  transition: opacity 0.3s ease-in-out, margin-left 0.3s ease-in-out;
-}
-.btn-functions:hover img {
-  opacity: 1;
-  margin-left: 10px;
+.btn-functions:hover span {
+  transition: all 0.3s ease-in-out;
+  background-color: var(--button-primary);
 }
 
 /* Infography */
