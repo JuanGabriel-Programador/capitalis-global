@@ -27,6 +27,9 @@
   .bg > img.tablet-ISO {
     display: block;
   }
+  .bg > img.ISO2{
+    transform: translateX(80px);
+  }
   .about-container,
   .functions-container {
     gap: 200px;
