@@ -157,7 +157,7 @@
     z-index: 99;
     position: relative;
     border-radius: 30px;
-    padding: 44px 94px 66px 94px;
+    padding: 44px 94px 55px 94px;
     background-color: var(--background-primary);
   }
   .container-contacto {
