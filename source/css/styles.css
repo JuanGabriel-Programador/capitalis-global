@@ -137,10 +137,8 @@ a.contacto-mobile:hover {
 footer {
    gap: 45px;
    padding-top: 74px;
-   margin-top: -20px;
    transform: translateY(-20px);
    position: relative;
-   padding-bottom: 54px;
    padding-bottom: 3.375rem;
    justify-content: center;
    color: var(--background-primary);
