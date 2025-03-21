@@ -47,7 +47,8 @@ a.contacto-mobile {
   background-color: transparent;
   border: solid 1.5px var(--button-primary);
 }
-a.contacto-desktop:hover, a.contacto-mobile:hover{
+a.contacto-desktop:hover,
+a.contacto-mobile:hover {
   color: var(--background-primary);
   background-color: var(--button-primary);
 }
@@ -136,11 +137,14 @@ a.contacto-desktop:hover, a.contacto-mobile:hover{
 footer {
   gap: 45px;
   padding-top: 74px;
+  margin-top: -20px;
+  position: relative;
   padding-bottom: 54px;
   justify-content: center;
+  color: var(--background-primary);
   background-color: var(--background-footer);
 }
-footer > p {
+footer a {
   color: var(--background-primary);
 }
 .footer-container {
@@ -150,10 +154,13 @@ footer > p {
 .info-containerF {
   gap: 48px;
 }
+.logo-footer > img {
+  max-height: 86px;
+  max-width: 186.68px;
+}
 .contact-footer {
   gap: 10px;
   flex-direction: column;
-  color: var(--background-primary);
 }
 .footer-p,
 .menuF-1 {
@@ -162,7 +169,7 @@ footer > p {
 .social-mediaF {
   gap: 48px;
 }
-.circle-form {
+.circle-contact {
   width: 24px;
   height: 24px;
   border-radius: 50%;
@@ -185,11 +192,11 @@ footer > p {
 }
 .menu-footer > ul > li,
 footer > p {
+  font-weight: 300;
   text-transform: uppercase;
 }
-footer {
-  margin-top: -20px;
-  position: relative;
+.footer-p {
+  font-weight: 300;
 }
 
 /*=============== BREAKPOINTS ===============*/
