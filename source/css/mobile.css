@@ -327,14 +327,11 @@ textarea {
 .num {
   column-gap: 27px;
 }
-.tel {
-  gap: 18px;
-}
-.num > input:nth-child(1),
 .cod {
   width: 98px;
 }
 .tel{
+  gap: 18px;
   width: 16.25rem;
 }
 .text-box {
