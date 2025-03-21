@@ -39,8 +39,8 @@
   .container-infography {
     flex-direction: column;
   }
-  .step-container {
-    padding-top: 0;
+  .text-step{
+    max-width: 216px;
   }
   .step {
     gap: 50px;
