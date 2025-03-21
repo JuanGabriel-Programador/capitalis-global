@@ -49,6 +49,9 @@
     gap: 236px;
     flex-flow: row nowrap;
   }
+  .about-container{
+    padding: 0;
+  }
   .overline-about {
     height: 50px;
   }
