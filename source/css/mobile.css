@@ -141,6 +141,8 @@ main {
 .text-benefits3 {
   width: 85%;
 }
+.text-benefits > h5{
+  font-family: "Helvetica Neue LT Pro", sans-serif;}
 .text-benefits > p {
   color: var(--text);
   line-height: 25px;
