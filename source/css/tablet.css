@@ -114,6 +114,8 @@
   .email-contacto {
     row-gap: 22px;
     column-gap: 24px;
+  }
+  .nombre-apellido, .empresa-cuit, .email-contacto{
     flex-direction: row;
   }
   .msj {
