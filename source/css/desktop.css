@@ -154,8 +154,10 @@
 
   /* Form */
   .contacto {
-    padding: 44px 94px 88px 94px;
+    z-index: 99;
+    position: relative;
     border-radius: 30px;
+    padding: 44px 94px 88px 94px;
     background-color: var(--background-primary);
   }
   .container-contacto {
