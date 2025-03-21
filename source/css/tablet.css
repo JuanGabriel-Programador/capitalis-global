@@ -85,6 +85,9 @@
   .card-step > img {
     align-items: flex-end;
   }
+  .line{
+    transform: translateX(9.5rem);
+  }
   .line > img {
     height: 50px;
   }
