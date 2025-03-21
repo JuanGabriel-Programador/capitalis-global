@@ -324,12 +324,15 @@ textarea {
 .input > input:active {
   border-bottom: 1px solid var(--text);
 }
+.num{
+  gap: 10px;
+}
 .cod {
   width: 98px;
 }
 .tel{
   gap: 18px;
-  width: 16.25rem;
+  width: 14.25rem;
 }
 .text-box {
   width: 100%;
