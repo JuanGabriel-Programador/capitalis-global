@@ -332,7 +332,7 @@ textarea {
 }
 .tel{
   gap: 18px;
-  width: 14.25rem;
+  width: 100%;
 }
 .text-box {
   width: 100%;
