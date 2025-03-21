@@ -154,7 +154,7 @@
 
   /* Form */
   .contacto {
-    padding: 44px 94px;
+    padding: 44px 94px 88px 94px;
     border-radius: 30px;
     background-color: var(--background-primary);
   }
