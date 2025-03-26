@@ -168,13 +168,13 @@ footer a {
 .social-mediaF {
   gap: 48px;
 }
-.circle-contact {
+/*.circle-contact {
   width: 24px;
   height: 24px;
   border-radius: 50%;
   background-color: var(--logo);
   border: 2px solid var(--background-secondary);
-}
+}*/
 .menu-contactF {
   gap: 45px;
 }
