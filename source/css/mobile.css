@@ -273,6 +273,10 @@ main {
   font-weight: 600;
   font-family: "Helvetica Neue", sans-serif;
 }
+.info-contacto > p > a{
+  color: var(--text);
+  text-decoration: underline;
+} 
 .container-contacto {
   width: 100%;
 }
