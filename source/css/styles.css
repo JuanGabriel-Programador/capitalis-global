@@ -301,6 +301,7 @@ footer > p {
     padding: 0px;
   }
   .info-containerF {
+    gap: 202px;
     width: 100%;
     justify-content: space-between;
   }
