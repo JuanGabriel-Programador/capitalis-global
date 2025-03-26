@@ -152,6 +152,7 @@ main {
 .button-benefits {
   max-width: 100%;
   text-align: center;
+  padding-right: 20px;
 }
 .button-benefits:hover {
   max-width: 100%;
