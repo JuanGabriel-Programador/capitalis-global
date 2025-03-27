@@ -100,7 +100,9 @@
   .line > img {
     height: 50px;
   }
-
+.button-benefits{
+  max-width: 27rem;  
+}
   .left-column {
     display: none;
   }
