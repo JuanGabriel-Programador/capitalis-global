@@ -103,6 +103,9 @@
 .button-benefits{
   max-width: 27rem;  
 }
+  .button-benefits:hover{
+    max-width: 28rem;
+  }
   .left-column {
     display: none;
   }
