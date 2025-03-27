@@ -30,13 +30,16 @@
   .bg > img.tablet-ISO {
     display: block;
   }
+  .about-container{
+  
+    padding: 77px;
+  }  
   .about{
     margin: 0 30px;
   }
   .about-container,
   .functions-container {
     gap: 200px;
-    padding: 77px;
     flex-flow: column wrap;
   }
 
