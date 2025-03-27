@@ -168,6 +168,9 @@
     width: 100%;
     justify-content: space-between;
   }
+  .menu-contactF{
+    flex-direction: row-reverse;
+  }
   .firma{
     margin: 0 auto;
   }
