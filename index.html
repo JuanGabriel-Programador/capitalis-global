@@ -287,7 +287,9 @@
                 </div>
                 <div class="info-contacto flex-column">
                   <p>Nuestro Whatsapp</p>
-                  <p><a href="https://wa.me/+541160111597">+54 11 6011 1597</a></p>
+                  <p>
+                    <a href="https://wa.me/+541112345678">+54 11 1234 5678</a>
+                  </p>
                 </div>
               </div>
               <div class="contact-form flex-f">
@@ -296,21 +298,24 @@
                 </div>
                 <div class="info-contacto flex-column">
                   <p>Nuestro E-mail</p>
-                  <p><a href="mailto:admin@capitalisglobal.com">admin@capitalisglobal.com</a></p>
+                  <p>hello@capitalisglobal.com</p>
                 </div>
               </div>
             </div>
             <div class="social-media flex-f">
-              <div class="circle-contact"><img src="source/img/linkedin.png"></div>
+              <div class="circle-contact">
+                <img src="source/img/linkedin.png" />
+              </div>
             </div>
           </div>
           <div class="fields-container flex-f">
             <h1>Contactanos</h1>
-            <form action="" class="flex-f">
+            <form action="" id="hubspot-form" class="flex-f">
               <div class="nombre-apellido flex">
                 <div class="input flex-column">
                   <input
                     type="text"
+                    name="firstname"
                     class="text-box"
                     placeholder="Nombre*"
                     required
@@ -319,6 +324,7 @@
                 <div class="input flex-column">
                   <input
                     type="text"
+                    name="lastname"
                     placeholder="Apellido*"
                     class="text-box"
                     required
@@ -329,6 +335,7 @@
                 <div class="input flex-column">
                   <input
                     type="text"
+                    name="company"
                     placeholder="Nombre de la empresa*"
                     class="text-box name"
                     required
@@ -336,7 +343,10 @@
                 </div>
                 <div class="input flex-column">
                   <input
-                    type="text"
+                    type="number"
+                    maxlength="12"
+                    minlength="1"
+                    name="cuil_cuit"
                     placeholder="CUIL/CUIT*"
                     class="text-box"
                     required
@@ -346,11 +356,10 @@
               <div class="email-contacto flex">
                 <div class="input flex-column">
                   <input
-                    type="text"
+                    type="email"
                     placeholder="E-mail*"
-                    name=""
+                    name="email"
                     class="text-box"
-                    id=""
                     required
                   />
                 </div>
@@ -358,8 +367,9 @@
                   <div class="flex-column num input cod">
                     <input
                       type="number"
+                      maxlength="3"
+                      name="phone_area_code"
                       placeholder="(Cod. Área)*"
-                      maxlength= "3"
                       class="cod"
                       required
                     />
@@ -368,9 +378,8 @@
                     <input
                       type="number"
                       placeholder="Teléfono*"
-                      maxlength= "11"
-                      name=""
-                      id=""
+                      maxlength="11"
+                      name="phone_number"
                       class="tel"
                       required
                     />
@@ -379,13 +388,13 @@
               </div>
               <div class="input flex-column msj">
                 <textarea
-                  name="msj"
+                  name="message"
                   placeholder="Quiero saber más acerca...*"
                   id="msj"
                   required
                 ></textarea>
               </div>
-              <input type="button" class="button" value="Enviar" />
+              <input type="submit" class="button" value="Enviar" />
             </form>
           </div>
         </div>
@@ -403,17 +412,19 @@
             <div class="contact-footer flex">
               <div class="footer-p flex-column">
                 <p>CONTACTO</p>
-                <a href="https://wa.me/+541160111597">+54 11 6011 1597</a>
-                <a href="mailto:admin@capitalisglobal.com">admin@capitalisglobal.com</a>
+                <a href="">+54 11 1234 5678</a>
+                <a href="">hello@capitalisglobal.com</a>
               </div>
               <div class="social-mediaF flex">
-                <div class="circle-contact"><img src="source/img/linkedin.png"></div>
+                <div class="circle-contact">
+                  <img src="source/img/linkedin.png" />
+                </div>
               </div>
             </div>
             <div class="menu-footer flex">
               <ul class="menuF-1 flex">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#"quienes-somos>Quienes somos</a></li>
+                <li><a href="#" quienes-somos>Quienes somos</a></li>
                 <li><a href="#como-funciona">Como funciona</a></li>
                 <li><a href="#contacto">Contactanos</a></li>
               </ul>
@@ -427,7 +438,9 @@
       </section>
       <p class="firma">©2025. All rights reserved.</p>
     </footer>
-    <!--=============== MAIN JS ===============-->
+
+    <!--=============== JS ===============-->
     <script src="source/js/main.js"></script>
+    <script src="source/js/hubspot.js"></script>
   </body>
 </html>
