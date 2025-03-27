@@ -42,7 +42,9 @@
     gap: 200px;
     flex-flow: column wrap;
   }
-
+  .text-functions{
+    max-width: 38.25rem;
+  }
   .container-infography {
     flex-direction: column;
   }
