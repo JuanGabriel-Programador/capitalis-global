@@ -80,7 +80,12 @@
     display: none;
   }
   .card-feature{
-    max-width: 350px;
+    height: 100%;
+    max-width: 21.875rem;
+    max-height: 20.5rem; 
+  }
+  .card-content{
+    flex-direction: column;
   }
   .card-step{
     max-width: 216px;
