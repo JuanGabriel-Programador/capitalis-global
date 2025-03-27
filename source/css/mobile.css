@@ -233,10 +233,11 @@ main {
   line-height: 24px;
 }
 .lista > p {
+  font-size: 12px;
   margin-left: 10px;
   display: list-item;
-  font-size: 12px;
   list-style-type: disc;
+  list-style-position: inside;
 }
 .line {
   width: 165px;
