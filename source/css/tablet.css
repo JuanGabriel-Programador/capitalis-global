@@ -33,6 +33,7 @@
   .about-container,
   .functions-container {
     gap: 200px;
+    padding: 77px;
     flex-flow: column wrap;
   }
 
